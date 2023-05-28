@@ -1,0 +1,51 @@
+.card {
+    width: 296px;
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 0px 3.62249px 18.1125px rgba(165, 165, 165, 0.25);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 22px 20px 30px;
+}
+.card-title {
+    position: relative;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1;
+    padding-bottom: 12px;
+    margin-bottom: 13px;
+}
+.card-title::after {
+    content: '';
+    position: absolute;
+    background-color: #000000;
+    height: 0.75px;
+    left: -7px;
+    right: -7px;
+    /* width: 110px; */
+    bottom: 0px;
+}
+.card-content-title {
+    font-family: 'Georgia', serif;
+    font-weight: 700;
+    font-size: 15.9292px;
+    line-height: 157%;
+    color: #000000;
+}
+.card-content-title + * {
+    margin-top: 15px;
+}
+.card-content__list {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 10.6195px;
+    line-height: 157%;
+    color: #000000;
+}
+.card-content__list li {
+    list-style: inside;
+}
+.card-content__list li + * {
+    margin-top: 15px;
+}

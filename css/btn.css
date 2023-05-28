@@ -1,0 +1,43 @@
+.btn, a.btn {
+    /* первый вариант выравнивания*/
+    /* display: inline-block;
+    height: 51px;
+    line-height: 51px; */
+    /* margin-left: 50px; */
+
+    /* 2 вариант выравнивания*/
+    height: 51px;
+    display: flex;
+    align-items: center;
+    padding-left:  50px;
+    padding-right: 50px;
+    background: #01996D;
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+    transition: opacity 0.2s ease;
+}
+
+.btn:hover, a.btn:hover {
+    opacity: 0.8;
+    color: #FFFFFF;
+}
+
+.home__btn, .product-btn, .story-btn {
+    display: flex;
+}
+.btn-big, a.btn-big {
+    height: 65px;
+}
+@media (max-width: 991px) {
+    .btn, a.btn {
+        height: 41px;
+        padding-left: 30px;
+        padding-right: 30px;
+        font-size: 18px;
+    }
+    .btn-big, a.btn-big {
+        height: 55px;
+    }
+}
