@@ -6,9 +6,6 @@
     display: flex;
     align-items: center;
 }
-.header-logo {
-    /* margin-right: 172px; */
-}
 .header-nav {
     margin-left: 172px;
     font-weight: 500;
